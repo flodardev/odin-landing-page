@@ -1,0 +1,76 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Import Roboto font from Google */
+@import url('fonts.googleapis.com');
+
+body {
+    display: flex;
+    flex-flow: column;
+    font-family: "Roboto" , sans-serif;
+}
+
+/* Section one - header */
+
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    flex: 1;
+
+    background-color: #1f2937;
+    padding: 1em 15em;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-links {
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 1em;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+/* Section two */
+.section-two {
+    display: flex;
+    /* flex: 1; */
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 5em 15em;
+    background-color: #1f2937;
+}
+
+.two-left-side {
+    margin-right: 100px ;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.two-right-side {
+    background-color: aqua;
+    width: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
