@@ -98,7 +98,6 @@ body {
 }
 
 /* Section three */
-
 .section-three {
     /* flex properties */
     display: flex;
@@ -139,4 +138,33 @@ body {
 .box-content > p {
     color: gray;
     margin-top: 0.5em;
+}
+
+/* Section four */
+.section-four {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    min-height: 400px;
+    background-color: #e5e7eb;
+}
+
+.quote-box {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 69vw;
+    align-self: center;
+}
+
+.quote-box > .quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-box > .customer {
+    align-self: flex-end;
+    font-weight: 900;
+    padding-right: 2em;
 }
