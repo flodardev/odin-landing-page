@@ -61,7 +61,7 @@ body {
     /* Flex properties */
     display: flex;
     flex-flow: column nowrap;
-    flex: 0 0 400px;
+    flex: 0 0 500px;
     align-items: start;
 
     margin-right: 100px;
@@ -94,7 +94,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1 0 auto;
+    flex: 0 0 500px;
 }
 
 /* Section three */
@@ -131,8 +131,8 @@ body {
     border: 2px solid #3882F6;
     border-width: 4px;
     border-radius: 10px;
-    height: 125px;
-    width: 125px
+    height: 150px;
+    width: 150px
 }
 
 .box-content > p {
@@ -152,7 +152,7 @@ body {
 .quote-box {
     display: flex;
     flex-flow: column nowrap;
-    width: 69vw;
+    width: 55vw;
     align-self: center;
 }
 
@@ -168,3 +168,50 @@ body {
     font-weight: 900;
     padding-right: 2em;
 }
+
+/* Section five */
+
+.section-five {
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.five-box {
+    background-color: #3882f6;
+    height: 125px;
+    width: 75vw;
+    padding: 0 5em;
+    border-radius: 8px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.five-box > .content {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.five-box > button {
+    background-color: #3882F6;
+    color: #e5e7eb;
+    padding: 0.5em 2em;
+    margin-top: 1em;
+    /* Rounded corners */
+    border-radius: 8px;
+    border-color: #e5e7eb;
+    border-style: solid;
+}
+
+.content > .call {
+    color: #e5e7eb;
+    font-size: x-large;
+    font-weight: bold
+}
+ .content > p {
+    color: #e5e7eb;
+ }
