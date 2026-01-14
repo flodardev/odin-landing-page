@@ -61,9 +61,10 @@ body {
     display: flex;
     flex-flow: column nowrap;
     flex: 0 0 500px;
+    align-items: start;
 
     margin-right: 100px;
-    gap: 0.5em;
+    /* gap: 0.5em; */
 }
 
 .hero-main-text {
@@ -76,14 +77,13 @@ body {
     background-color: #3882F6;
     color: #e5e7eb;
     padding: 0.5em 2em;
+    margin-top: 1em;
     /* Rounded corners */
     border-radius: 8px;
-
-    align-self: flex-start;
 }
 
 .two-right-side {
-    background-color: aqua;
+    background-color: lightgray;
     width: 500px;
 
     display: flex;
