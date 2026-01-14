@@ -20,13 +20,14 @@ body {
 /* Section one - header */
 
 .header {
+    height: 80px;
+    background-color: #1f2937;
+    padding: 0 20em;
+
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    flex: 1;
-
-    background-color: #1f2937;
-    padding: 1em 12em;
+    align-items: center;
 }
 
 .header-logo {
@@ -53,7 +54,7 @@ body {
     /* flex: 1; */
     flex-flow: row nowrap;
     justify-content: space-between;
-    padding: 5em 12em 8em;
+    padding: 5em 20em 8em;
     background-color: #1f2937;
 }
 
@@ -61,7 +62,7 @@ body {
     /* Flex properties */
     display: flex;
     flex-flow: column nowrap;
-    flex: 0 0 500px;
+    flex: 0 0 600px;
     align-items: start;
 
     margin-right: 100px;
@@ -94,7 +95,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 0 0 500px;
+    flex: 0 0 600px;
 }
 
 /* Section three */
