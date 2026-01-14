@@ -181,7 +181,7 @@ body {
 .five-box {
     background-color: #3882f6;
     height: 125px;
-    width: 75vw;
+    width: 65vw;
     padding: 0 5em;
     border-radius: 8px;
 
@@ -215,3 +215,16 @@ body {
  .content > p {
     color: #e5e7eb;
  }
+
+ /* Section six - footer */
+.footer {
+    background-color: #1F2937;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer > footer {
+    color:#E5E7EB
+}
